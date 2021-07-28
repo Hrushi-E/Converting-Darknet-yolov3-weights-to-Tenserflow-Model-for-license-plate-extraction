@@ -159,7 +159,7 @@ def ocr(img, data):
         try:
             text = pytesseract.image_to_string(blur, config='--psm 11 --oem 3')
             print("Class: {}, Text Extracted: {}".format(class_name, text))
-            with open('LicensePlate.txt', 'w') as f:
+            with open('LicensePlateNumber.txt', 'w') as f:
                 f.write(text)
                 f.write('\n')
                 f.close()
