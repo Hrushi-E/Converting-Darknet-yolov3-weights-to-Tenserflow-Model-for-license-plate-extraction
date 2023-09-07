@@ -15,10 +15,10 @@ python save_model.py --weights ./data/yolov4.weights --output ./checkpoints/yolo
 !python detect.py --weights ./checkpoints/custom-416 --size 416 --model yolov3 --images /mydrive/TEST/test0.jpg
 
 # Run yolov3 on video
-python detect_video.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --video ./data/video/video.mp4 --output ./detections/results.avi
+python detect_video.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov3 --video ./data/video/video.mp4 --output ./detections/results.avi
 
 # Run yolov3 on webcam
-python detect_video.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --video 0 --output ./detections/results.avi
+python detect_video.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov3 --video 0 --output ./detections/results.avi
 ```
 
 
