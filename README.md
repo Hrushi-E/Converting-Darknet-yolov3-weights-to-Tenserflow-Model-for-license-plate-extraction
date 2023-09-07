@@ -26,7 +26,10 @@ Once detection are fine, we can pass that detection information to the crop_obje
 Extra: If you run ocr function on the cropped image of linense plate, then we can get the text out of it.
 
 References:
-*[theAIGuysCode](https://github.com/theAIGuysCode/tensorflow-yolov4-tflite) 
-*[tensorflow-yolov4-tflite](https://github.com/hunglc007/tensorflow-yolov4-tflite)
+
+[theAIGuysCode](https://github.com/theAIGuysCode/tensorflow-yolov4-tflite) 
+
+
+[tensorflow-yolov4-tflite](https://github.com/hunglc007/tensorflow-yolov4-tflite)
 
 
